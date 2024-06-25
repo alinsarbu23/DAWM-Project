@@ -1,22 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\supermarket api\\supermarketapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SupermarketAPI/True/SqlTable/dbo.AspNetUserClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SupermarketAPI/True/SqlTable/dbo.AspNetUserLogins.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SupermarketAPI/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SupermarketAPI/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SupermarketAPI/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\supermarket api\\supermarketapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\supermarket api\\supermarketapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\supermarket api\\supermarketapi\\models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\dtos\\commanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:dtos\\commanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\migrations\\20240622152918_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:migrations\\20240622152918_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\models\\commandproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:models\\commandproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,47 +101,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\Startup.cs",
-              "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\Startup.cs",
-              "RelativeToolTip": "Startup.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwBQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T17:02:15.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T17:02:12.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Command.cs",
-              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\Models\\Command.cs",
-              "RelativeDocumentMoniker": "Models\\Command.cs",
-              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\Models\\Command.cs",
-              "RelativeToolTip": "Models\\Command.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T17:01:50.489Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -82,14 +118,297 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "dbo.Products [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SupermarketAPI/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "dbo.Products [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-25T07:17:07.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SupermarketAPI/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-25T07:17:05.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.AspNetUserLogins [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SupermarketAPI/True/SqlTable/dbo.AspNetUserLogins.sql",
+              "ToolTip": "dbo.AspNetUserLogins [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-25T06:43:08.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.AspNetUserClaims [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SupermarketAPI/True/SqlTable/dbo.AspNetUserClaims.sql",
+              "ToolTip": "dbo.AspNetUserClaims [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-25T06:43:16.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-25T06:42:24.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAowEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T07:04:26.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA5wB0AAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T17:00:57.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:02:15.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SupermarketAPI/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-25T06:42:59.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:40:55.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "DTOs\\ProductDTO.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T07:07:53.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:40:56.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAowJQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T07:04:06.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:41:56.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:40:58.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CommandDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\CommandDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CommandDTO.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\CommandDTO.cs",
+              "RelativeToolTip": "DTOs\\CommandDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:40:54.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "DTOs\\CategoryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:40:52.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAJ4BAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:40:46.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240622152918_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Migrations\\20240622152918_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240622152918_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Migrations\\20240622152918_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240622152918_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:40:33.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:40:19.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CommandProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Models\\CommandProduct.cs",
+              "RelativeDocumentMoniker": "Models\\CommandProduct.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Models\\CommandProduct.cs",
+              "RelativeToolTip": "Models\\CommandProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:40:04.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:39:54.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:02:12.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Models\\Command.cs",
+              "RelativeDocumentMoniker": "Models\\Command.cs",
+              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Models\\Command.cs",
+              "RelativeToolTip": "Models\\Command.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:01:50.489Z",
               "EditorCaption": ""
             }
           ]

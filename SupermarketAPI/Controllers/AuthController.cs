@@ -31,7 +31,7 @@ namespace SupermarketAPI.Controllers
             {
                 UserName = registerDto.Email,
                 Email = registerDto.Email,
-                EmailConfirmed = true 
+                EmailConfirmed = true
             };
 
             var result = await _userManager.CreateAsync(user, registerDto.Password);

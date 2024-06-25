@@ -53,8 +53,8 @@ namespace SupermarketAPI
             }
 
             app.UseHttpsRedirection();
-            app.UseRouting();
-            app.UseAuthentication();
+            app.UseRouting(); 
+            //app.UseAuthentication(); 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

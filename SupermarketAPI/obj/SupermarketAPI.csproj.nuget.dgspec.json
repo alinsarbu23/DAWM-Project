@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\SupermarketAPI.csproj": {}
+    "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\SupermarketAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\SupermarketAPI.csproj": {
+    "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\SupermarketAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\SupermarketAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\SupermarketAPI.csproj",
         "projectName": "SupermarketAPI",
-        "projectPath": "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\SupermarketAPI.csproj",
+        "projectPath": "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\SupermarketAPI.csproj",
         "packagesPath": "C:\\Users\\Alin Sârbu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\obj\\",
+        "outputPath": "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

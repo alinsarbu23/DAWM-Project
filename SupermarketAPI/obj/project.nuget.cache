@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oORluV0bCo4=",
+  "dgSpecHash": "7s51MvyZcdI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\Supermarket API\\SupermarketAPI\\SupermarketAPI.csproj",
+  "projectFilePath": "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\SupermarketAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alin Sârbu\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Alin Sârbu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

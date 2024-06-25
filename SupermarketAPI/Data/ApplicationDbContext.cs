@@ -30,11 +30,6 @@ namespace SupermarketAPI.Data
                 .WithMany(c => c.CommandProducts)
                 .HasForeignKey(cp => cp.CommandId);
 
-            modelBuilder.Entity<CommandProduct>()
-                .HasOne(cp => cp.Product)
-                .WithMany(p => p.CommandProducts)
-                .HasForeignKey(cp => cp.ProductId);
-
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)
                 .HasColumnType("decimal(18,2)");
