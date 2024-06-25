@@ -4718,24 +4718,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alin Sârbu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\radun\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\SupermarketAPI.csproj",
+      "projectUniqueName": "C:\\Facultate\\DAWM-Project\\SupermarketAPI\\SupermarketAPI.csproj",
       "projectName": "SupermarketAPI",
-      "projectPath": "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\SupermarketAPI.csproj",
-      "packagesPath": "C:\\Users\\Alin Sârbu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alin Sârbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\obj\\",
+      "projectPath": "C:\\Facultate\\DAWM-Project\\SupermarketAPI\\SupermarketAPI.csproj",
+      "packagesPath": "C:\\Users\\radun\\.nuget\\packages\\",
+      "outputPath": "C:\\Facultate\\DAWM-Project\\SupermarketAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Alin Sârbu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\radun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4743,7 +4738,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4821,7 +4815,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
