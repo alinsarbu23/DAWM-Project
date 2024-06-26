@@ -27,9 +27,12 @@ namespace SupermarketAPI.Controllers
                 .Select(c => new CategoryDTO
                 {
                     Id = c.Id,
-                    Name = c.Name
+                    Name = c.Name,
+                    Products = c.Products,
                 })
                 .ToListAsync();
+
+            
 
             return Ok(categories);
         }

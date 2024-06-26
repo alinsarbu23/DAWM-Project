@@ -69,12 +69,27 @@ namespace SupermarketAPI.Controllers
                 return BadRequest(ModelState);
             }
 
+
+
             var product = new Product
             {
                 Name = productDto.Name,
                 Price = productDto.Price
                 // Set other properties as needed
             };
+
+
+            var category = await _context.Categories
+                             .FirstOrDefaultAsync(c => c.Name == productDto.Category);
+
+            if (category != null)
+            {
+                category.Products.Add(product);
+            }
+            else
+            {
+                return BadRequest("Please type a valid category for this product.");
+            }
 
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
