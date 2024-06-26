@@ -24,14 +24,16 @@ namespace SupermarketAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProducts()
         {
-            var products = await _context.Products
-                .Select(p => new ProductDTO
-                {
-                    Id = p.Id,
-                    Name = p.Name,
-                    Price = p.Price
-                    // Add other properties from Product as needed
-                })
+            var products = await _context.Products.Join(_context.Categories,
+              product => product.Id,
+              category => category.Products.Select(p => p.Id).FirstOrDefault(),
+              (product, category) => new ProductDTO
+              {
+                  Id = product.Id,
+                  Name = product.Name,
+                  Price = product.Price,
+                  Category = category.Name
+              })
                 .ToListAsync();
 
             return Ok(products);
@@ -42,15 +44,19 @@ namespace SupermarketAPI.Controllers
         public async Task<ActionResult<ProductDTO>> GetProduct(int id)
         {
             var product = await _context.Products
-                .Where(p => p.Id == id)
-                .Select(p => new ProductDTO
-                {
-                    Id = p.Id,
-                    Name = p.Name,
-                    Price = p.Price
-                    // Add other properties from Product as needed
-                })
-                .FirstOrDefaultAsync();
+                    .Where(p => p.Id == id)
+                    .Join(_context.Categories,
+                          product => product.Id,
+                          category => category.Products.Select(p => p.Id).FirstOrDefault(),
+                          (product, category) => new ProductDTO
+                          {
+                              Id = product.Id,
+                              Name = product.Name,
+                              Price = product.Price,
+                              Category = category.Name // Map the category name
+                                                       // Add other properties from Product as needed
+                          })
+                    .FirstOrDefaultAsync();
 
             if (product == null)
             {

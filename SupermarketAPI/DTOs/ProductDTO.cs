@@ -13,14 +13,6 @@ namespace SupermarketAPI.DTOs
         [Range(0.01, double.MaxValue, ErrorMessage = "The price must be greater than 0.")]
         public decimal Price { get; set; }
 
-        public string Description { get; set; } // Descrierea produsului
-
         public string Category { get; set; } // Categoria produsului
-
-        public int StockQuantity { get; set; } // Cantitatea disponibilă în stoc
-
-        public string ImageUrl { get; set; } // URL-ul imaginii produsului
-
-        // Alte proprietăți după necesități
     }
 }
