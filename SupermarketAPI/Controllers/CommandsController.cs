@@ -89,9 +89,18 @@ namespace SupermarketAPI.Controllers
                 return BadRequest(ModelState);
             }
 
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Name == commandDto.Name);
+
+            if (user == null)
+            {
+                return BadRequest("Please type a valid user name for this command");
+            }
+
             var command = new Command
             {
-                OrderDate = commandDto.OrderDate
+                OrderDate = commandDto.OrderDate,
+                
             };
 
             _context.Commands.Add(command);

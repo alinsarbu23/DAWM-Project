@@ -10,5 +10,7 @@ namespace SupermarketAPI.Models
         [StringLength(255, ErrorMessage = "The Name must not exceed {1} characters.")]
         public string Name { get; set; }
 
+        public List<Command> Commands { get; set; } = new List<Command>();
+
     }
 }

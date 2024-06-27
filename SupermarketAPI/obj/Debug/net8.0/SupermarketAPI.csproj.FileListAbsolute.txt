@@ -440,3 +440,4 @@ C:\Facultate\DAWM-Project\SupermarketAPI\obj\Debug\net8.0\refint\SupermarketAPI.
 C:\Facultate\DAWM-Project\SupermarketAPI\obj\Debug\net8.0\SupermarketAPI.pdb
 C:\Facultate\DAWM-Project\SupermarketAPI\obj\Debug\net8.0\SupermarketAPI.genruntimeconfig.cache
 C:\Facultate\DAWM-Project\SupermarketAPI\obj\Debug\net8.0\ref\SupermarketAPI.dll
+C:\Facultate\DAWM-Project\SupermarketAPI\bin\Debug\net8.0\AutoMapper.dll
