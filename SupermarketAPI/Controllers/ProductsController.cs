@@ -80,6 +80,14 @@ namespace SupermarketAPI.Controllers
                 return BadRequest("Please specify a valid category for this product.");
             }
 
+            var existingProduct = await _context.Products
+                .FirstOrDefaultAsync(p => p.Name == productDto.Name);
+            if (existingProduct != null)
+            {
+                return BadRequest("This product already exists.");
+            }
+
+
             var product = new Product
             {
                 Name = productDto.Name,
@@ -99,15 +107,23 @@ namespace SupermarketAPI.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProduct(int id, ProductDTO productDto)
         {
-            if (id != productDto.Id)
+            // ID must not be changed, commented code
+            /*if (id != productDto.Id)
             {
                 return BadRequest();
-            }
+            }*/
 
             var product = await _context.Products.FindAsync(id);
             if (product == null)
             {
                 return NotFound();
+            }
+
+            var existingProduct = await _context.Products
+                .FirstOrDefaultAsync(p => p.Name == productDto.Name && p.Id != productDto.Id);
+            if (existingProduct != null)
+            {
+                return BadRequest("A product with the same name already exists.");
             }
 
             var category = await _context.Categories

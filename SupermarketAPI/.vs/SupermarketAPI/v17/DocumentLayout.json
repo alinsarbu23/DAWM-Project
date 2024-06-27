@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\",
+  "WorkspaceRootPath": "C:\\Facultate\\DAWM-Project\\SupermarketAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\users\\alin s\u00E2rbu\\onedrive\\desktop\\dawm-project\\supermarketapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\facultate\\dawm-project\\supermarketapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|c:\\facultate\\dawm-project\\supermarketapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238D597-6E6A-4BA8-A09E-C4F1DA5C62FB}|SupermarketAPI.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,29 +18,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Facultate\\DAWM-Project\\SupermarketAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Facultate\\DAWM-Project\\SupermarketAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T06:50:10.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Facultate\\DAWM-Project\\SupermarketAPI\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Alin S\u00E2rbu\\OneDrive\\Desktop\\DAWM-Project\\SupermarketAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Facultate\\DAWM-Project\\SupermarketAPI\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAYwAoAAAAkAAAA",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAuwFgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T05:43:08.628Z",
               "EditorCaption": ""

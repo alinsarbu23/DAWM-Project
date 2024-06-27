@@ -147,7 +147,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "sortOrder",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[SupermarketAPI.DTOs.CommandDTO, SupermarketAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",

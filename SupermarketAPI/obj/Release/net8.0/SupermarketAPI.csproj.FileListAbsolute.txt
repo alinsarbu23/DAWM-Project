@@ -295,3 +295,4 @@ C:\Users\Alin Sârbu\OneDrive\Desktop\DAWM-Project\SupermarketAPI\obj\Release\ne
 C:\Users\Alin Sârbu\OneDrive\Desktop\DAWM-Project\SupermarketAPI\obj\Release\net8.0\SupermarketAPI.genruntimeconfig.cache
 C:\Users\Alin Sârbu\OneDrive\Desktop\DAWM-Project\SupermarketAPI\obj\Release\net8.0\ref\SupermarketAPI.dll
 C:\Users\Alin Sârbu\OneDrive\Desktop\DAWM-Project\SupermarketAPI\bin\Release\net8.0\AutoMapper.dll
+C:\Facultate\DAWM-Project\SupermarketAPI\bin\Release\net8.0\AutoMapper.dll
