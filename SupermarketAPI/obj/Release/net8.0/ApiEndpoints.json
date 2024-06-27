@@ -60,8 +60,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "categoryDto",
-        "Type": "SupermarketAPI.DTOs.CategoryDTO",
+        "Name": "categorycreateDto",
+        "Type": "SupermarketAPI.DTOs.CategoryCreateDTO",
         "IsRequired": true
       }
     ],

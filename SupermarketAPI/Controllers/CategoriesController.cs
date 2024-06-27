@@ -73,7 +73,7 @@ namespace SupermarketAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<CategoryDTO>> PostCategory(CategoryDTO categoryDto)
+        public async Task<ActionResult<CategoryDTO>> PostCategory(CategoryCreateDTO categorycreateDto)
         {
             if (!ModelState.IsValid)
             {
@@ -84,15 +84,15 @@ namespace SupermarketAPI.Controllers
             {
                 var category = new Category
                 {
-                    Name = categoryDto.Name
+                    Name = categorycreateDto.Name
                 };
 
                 _context.Categories.Add(category);
                 await _context.SaveChangesAsync();
 
-                categoryDto.Id = category.Id;
+                categorycreateDto.Id = category.Id;
 
-                return CreatedAtAction(nameof(GetCategory), new { id = categoryDto.Id }, categoryDto);
+                return CreatedAtAction(nameof(GetCategory), new { id = categorycreateDto.Id }, categorycreateDto);
             }
             catch (Exception ex)
             {
