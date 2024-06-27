@@ -28,7 +28,8 @@ namespace SupermarketAPI.Controllers
                 .Select(u => new UserDTO
                 {
                     Id = u.Id,
-                    Name = u.Name
+                    Name = u.Name,
+                    Commands = u.Commands
                     // Add other properties as needed
                 })
                 .ToListAsync();
@@ -45,7 +46,8 @@ namespace SupermarketAPI.Controllers
                 .Select(u => new UserDTO
                 {
                     Id = u.Id,
-                    Name = u.Name
+                    Name = u.Name,
+                    Commands = u.Commands
                     // Add other properties as needed
                 })
                 .FirstOrDefaultAsync();
@@ -60,7 +62,7 @@ namespace SupermarketAPI.Controllers
 
         // POST: api/Users
         [HttpPost]
-        public async Task<ActionResult<UserDTO>> PostUser(UserDTO userDto)
+        public async Task<ActionResult<UserDTO>> PostUser(UserCreateDTO userCreateDto)
         {
             if (!ModelState.IsValid)
             {
@@ -69,16 +71,16 @@ namespace SupermarketAPI.Controllers
 
             var user = new User
             {
-                Name = userDto.Name
+                Name = userCreateDto.Name
                 // Set other properties as needed
             };
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
-            userDto.Id = user.Id;
+            userCreateDto.Id = user.Id;
 
-            return CreatedAtAction(nameof(GetUser), new { id = userDto.Id }, userDto);
+            return CreatedAtAction(nameof(GetUser), new { id = userCreateDto.Id }, userCreateDto);
         }
 
         // PUT: api/Users/5

@@ -30,6 +30,10 @@ namespace SupermarketAPI.Controllers
                 {
                     Id = c.Id,
                     OrderDate = c.OrderDate,
+                    Name = _context.Users
+                               .Where(u => u.Commands.Any(cmd => cmd.Id == c.Id))
+                               .Select(u => u.Name)
+                               .FirstOrDefault(),
                     CommandProducts = c.CommandProducts.Select(cp => new CommandProductDTO
                     {
                         CommandId = cp.CommandId,
@@ -57,7 +61,7 @@ namespace SupermarketAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<CommandDTO>> GetCommand(int id)
         {
-            var command = await _context.Commands
+            var command = _context.Commands
                 .Include(c => c.CommandProducts)
                 .ThenInclude(cp => cp.Product)
                 .Where(c => c.Id == id)
@@ -65,13 +69,16 @@ namespace SupermarketAPI.Controllers
                 {
                     Id = c.Id,
                     OrderDate = c.OrderDate,
+                    Name = _context.Users
+                               .Where(u => u.Commands.Any(cmd => cmd.Id == c.Id))
+                               .Select(u => u.Name)
+                               .FirstOrDefault(),
                     CommandProducts = c.CommandProducts.Select(cp => new CommandProductDTO
                     {
                         CommandId = cp.CommandId,
                         ProductId = cp.ProductId
                     }).ToList()
-                })
-                .FirstOrDefaultAsync();
+                });
 
             if (command == null)
             {
@@ -82,7 +89,7 @@ namespace SupermarketAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<CommandDTO>> PostCommand(CommandDTO commandDto)
+        public async Task<ActionResult<CommandDTO>> PostCommand(CommandCreateDTO commandCreateDto)
         {
             if (!ModelState.IsValid)
             {
@@ -90,7 +97,7 @@ namespace SupermarketAPI.Controllers
             }
 
             var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.Name == commandDto.Name);
+                .FirstOrDefaultAsync(u => u.Name == commandCreateDto.Name);
 
             if (user == null)
             {
@@ -99,16 +106,17 @@ namespace SupermarketAPI.Controllers
 
             var command = new Command
             {
-                OrderDate = commandDto.OrderDate,
-                
+                OrderDate = commandCreateDto.OrderDate,
             };
+
+            user.Commands.Add(command);
 
             _context.Commands.Add(command);
             await _context.SaveChangesAsync();
 
-            commandDto.Id = command.Id;
+            commandCreateDto.Id = command.Id;
 
-            return CreatedAtAction(nameof(GetCommand), new { id = commandDto.Id }, commandDto);
+            return CreatedAtAction(nameof(GetCommand), new { id = commandCreateDto.Id }, commandCreateDto);
         }
 
         [HttpPut("{id}")]

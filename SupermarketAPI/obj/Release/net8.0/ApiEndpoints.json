@@ -175,8 +175,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "commandDto",
-        "Type": "SupermarketAPI.DTOs.CommandDTO",
+        "Name": "commandCreateDto",
+        "Type": "SupermarketAPI.DTOs.CommandCreateDTO",
         "IsRequired": true
       }
     ],
@@ -393,8 +393,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userDto",
-        "Type": "SupermarketAPI.DTOs.UserDTO",
+        "Name": "userCreateDto",
+        "Type": "SupermarketAPI.DTOs.UserCreateDTO",
         "IsRequired": true
       }
     ],
