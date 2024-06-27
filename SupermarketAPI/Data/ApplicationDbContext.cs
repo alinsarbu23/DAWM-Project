@@ -25,6 +25,11 @@ namespace SupermarketAPI.Data
             modelBuilder.Entity<CommandProduct>()
                 .HasKey(cp => new { cp.CommandId, cp.ProductId });
 
+            modelBuilder.Entity<Product>()
+               .HasOne(p => p.Category)
+               .WithMany(c => c.Products)
+               .HasForeignKey(p => p.CategoryId);
+
             modelBuilder.Entity<CommandProduct>()
                 .HasOne(cp => cp.Command)
                 .WithMany(c => c.CommandProducts)

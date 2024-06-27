@@ -21,9 +21,9 @@ namespace SupermarketAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CommandDTO>>> GetCommands()
+        public async Task<ActionResult<IEnumerable<CommandDTO>>> GetCommands(string sortOrder = "orderdate")
         {
-            var commands = await _context.Commands
+            var commandsQuery = _context.Commands
                 .Include(c => c.CommandProducts)
                 .ThenInclude(cp => cp.Product)
                 .Select(c => new CommandDTO
@@ -35,9 +35,22 @@ namespace SupermarketAPI.Controllers
                         CommandId = cp.CommandId,
                         ProductId = cp.ProductId
                     }).ToList()
-                })
-                .ToListAsync();
+                });
 
+            switch (sortOrder.ToLower())
+            {
+                case "orderdate":
+                    commandsQuery = commandsQuery.OrderBy(c => c.OrderDate);
+                    break;
+                case "id":
+                    commandsQuery = commandsQuery.OrderBy(c => c.Id);
+                    break;
+                default:
+                    commandsQuery = commandsQuery.OrderBy(c => c.OrderDate);
+                    break;
+            }
+
+            var commands = await commandsQuery.ToListAsync();
             return Ok(commands);
         }
 

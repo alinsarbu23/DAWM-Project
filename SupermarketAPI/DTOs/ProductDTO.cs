@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿// ProductDTO.cs (DTO)
+using System.ComponentModel.DataAnnotations;
 
 namespace SupermarketAPI.DTOs
 {
@@ -13,6 +14,7 @@ namespace SupermarketAPI.DTOs
         [Range(0.01, double.MaxValue, ErrorMessage = "The price must be greater than 0.")]
         public decimal Price { get; set; }
 
-        public string Category { get; set; } // Categoria produsului
+        [Required(ErrorMessage = "The category is required.")]
+        public string Category { get; set; }
     }
 }

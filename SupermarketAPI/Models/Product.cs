@@ -1,5 +1,6 @@
-﻿using System.Collections.Generic;
+﻿// Product.cs (Model)
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SupermarketAPI.Models
 {
@@ -7,12 +8,16 @@ namespace SupermarketAPI.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "The Name field is required.")]
-        [StringLength(255, ErrorMessage = "The Name must not exceed {1} characters.")]
+        [Required(ErrorMessage = "The product name is required.")]
         public string Name { get; set; }
 
+        [Required(ErrorMessage = "The price is required.")]
+        [Range(0.01, double.MaxValue, ErrorMessage = "The price must be greater than 0.")]
         public decimal Price { get; set; }
 
-        public List<CommandProduct> CommandProducts { get; set; }
+        public int CategoryId { get; set; }
+
+        [ForeignKey("CategoryId")]
+        public Category Category { get; set; }
     }
 }

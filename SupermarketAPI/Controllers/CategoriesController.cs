@@ -3,8 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using SupermarketAPI.Data;
 using SupermarketAPI.DTOs;
 using SupermarketAPI.Models;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace SupermarketAPI.Controllers
@@ -23,38 +23,53 @@ namespace SupermarketAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CategoryDTO>>> GetCategories()
         {
-            var categories = await _context.Categories
-                .Select(c => new CategoryDTO
-                {
-                    Id = c.Id,
-                    Name = c.Name,
-                    Products = c.Products,
-                })
-                .ToListAsync();
+            try
+            {
+                var categories = await _context.Categories
+                    .Select(c => new CategoryDTO
+                    {
+                        Id = c.Id,
+                        Name = c.Name,
+                        Products = c.Products,
+                    })
+                    .ToListAsync();
 
-            
-
-            return Ok(categories);
+                return Ok(categories);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception (you can use any logging framework)
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Internal server error");
+            }
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<CategoryDTO>> GetCategory(int id)
         {
-            var category = await _context.Categories
-                .Where(c => c.Id == id)
-                .Select(c => new CategoryDTO
-                {
-                    Id = c.Id,
-                    Name = c.Name
-                })
-                .FirstOrDefaultAsync();
-
-            if (category == null)
+            try
             {
-                return NotFound();
-            }
+                var category = await _context.Categories
+                    .Where(c => c.Id == id)
+                    .Select(c => new CategoryDTO
+                    {
+                        Id = c.Id,
+                        Name = c.Name
+                    })
+                    .FirstOrDefaultAsync();
 
-            return Ok(category);
+                if (category == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(category);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Internal server error");
+            }
         }
 
         [HttpPost]
@@ -65,17 +80,25 @@ namespace SupermarketAPI.Controllers
                 return BadRequest(ModelState);
             }
 
-            var category = new Category
+            try
             {
-                Name = categoryDto.Name
-            };
+                var category = new Category
+                {
+                    Name = categoryDto.Name
+                };
 
-            _context.Categories.Add(category);
-            await _context.SaveChangesAsync();
+                _context.Categories.Add(category);
+                await _context.SaveChangesAsync();
 
-            categoryDto.Id = category.Id;
+                categoryDto.Id = category.Id;
 
-            return CreatedAtAction(nameof(GetCategory), new { id = categoryDto.Id }, categoryDto);
+                return CreatedAtAction(nameof(GetCategory), new { id = categoryDto.Id }, categoryDto);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Internal server error");
+            }
         }
 
         [HttpPut("{id}")]
@@ -86,48 +109,64 @@ namespace SupermarketAPI.Controllers
                 return BadRequest();
             }
 
-            var category = await _context.Categories.FindAsync(id);
-            if (category == null)
-            {
-                return NotFound();
-            }
-
-            category.Name = categoryDto.Name;
-
-            _context.Entry(category).State = EntityState.Modified;
-
             try
             {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!CategoryExists(id))
+                var category = await _context.Categories.FindAsync(id);
+                if (category == null)
                 {
                     return NotFound();
                 }
-                else
-                {
-                    throw;
-                }
-            }
 
-            return NoContent();
+                category.Name = categoryDto.Name;
+
+                _context.Entry(category).State = EntityState.Modified;
+
+                try
+                {
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!CategoryExists(id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Internal server error");
+            }
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategory(int id)
         {
-            var category = await _context.Categories.FindAsync(id);
-            if (category == null)
+            try
             {
-                return NotFound();
+                var category = await _context.Categories.FindAsync(id);
+                if (category == null)
+                {
+                    return NotFound();
+                }
+
+                _context.Categories.Remove(category);
+                await _context.SaveChangesAsync();
+
+                return NoContent();
             }
-
-            _context.Categories.Remove(category);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Internal server error");
+            }
         }
 
         private bool CategoryExists(int id)

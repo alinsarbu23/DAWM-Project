@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿// ProductsController.cs (Controller)
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SupermarketAPI.Data;
 using SupermarketAPI.DTOs;
@@ -24,16 +25,15 @@ namespace SupermarketAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProducts()
         {
-            var products = await _context.Products.Join(_context.Categories,
-              product => product.Id,
-              category => category.Products.Select(p => p.Id).FirstOrDefault(),
-              (product, category) => new ProductDTO
-              {
-                  Id = product.Id,
-                  Name = product.Name,
-                  Price = product.Price,
-                  Category = category.Name
-              })
+            var products = await _context.Products
+                .Include(p => p.Category) 
+                .Select(p => new ProductDTO
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Price = p.Price,
+                    Category = p.Category.Name 
+                })
                 .ToListAsync();
 
             return Ok(products);
@@ -44,19 +44,16 @@ namespace SupermarketAPI.Controllers
         public async Task<ActionResult<ProductDTO>> GetProduct(int id)
         {
             var product = await _context.Products
-                    .Where(p => p.Id == id)
-                    .Join(_context.Categories,
-                          product => product.Id,
-                          category => category.Products.Select(p => p.Id).FirstOrDefault(),
-                          (product, category) => new ProductDTO
-                          {
-                              Id = product.Id,
-                              Name = product.Name,
-                              Price = product.Price,
-                              Category = category.Name // Map the category name
-                                                       // Add other properties from Product as needed
-                          })
-                    .FirstOrDefaultAsync();
+                .Include(p => p.Category) 
+                .Where(p => p.Id == id)
+                .Select(p => new ProductDTO
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Price = p.Price,
+                    Category = p.Category.Name 
+                })
+                .FirstOrDefaultAsync();
 
             if (product == null)
             {
@@ -75,27 +72,20 @@ namespace SupermarketAPI.Controllers
                 return BadRequest(ModelState);
             }
 
+            var category = await _context.Categories
+                             .FirstOrDefaultAsync(c => c.Name == productDto.Category);
 
+            if (category == null)
+            {
+                return BadRequest("Please specify a valid category for this product.");
+            }
 
             var product = new Product
             {
                 Name = productDto.Name,
-                Price = productDto.Price
-                // Set other properties as needed
+                Price = productDto.Price,
+                CategoryId = category.Id
             };
-
-
-            var category = await _context.Categories
-                             .FirstOrDefaultAsync(c => c.Name == productDto.Category);
-
-            if (category != null)
-            {
-                category.Products.Add(product);
-            }
-            else
-            {
-                return BadRequest("Please type a valid category for this product.");
-            }
 
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
@@ -120,11 +110,17 @@ namespace SupermarketAPI.Controllers
                 return NotFound();
             }
 
+            var category = await _context.Categories
+                             .FirstOrDefaultAsync(c => c.Name == productDto.Category);
+
+            if (category == null)
+            {
+                return BadRequest("Please specify a valid category for this product.");
+            }
+
             product.Name = productDto.Name;
             product.Price = productDto.Price;
-            // Update other properties as needed
-
-            _context.Entry(product).State = EntityState.Modified;
+            product.CategoryId = category.Id;
 
             try
             {
